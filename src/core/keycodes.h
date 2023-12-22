@@ -9,7 +9,7 @@
 namespace egg {
 using KeyCode = uint16_t;
 
-enum Key : KeyCode {
+enum class Key : KeyCode {
   /* ======================================
   From glfw3.h
   ====================================== */
