@@ -17,6 +17,7 @@ target_include_directories(${PROJECT_NAME}
     PRIVATE
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src>
 )
+target_precompile_headers(${PROJECT_NAME} PUBLIC src/eggpch.h)
 
 # Include external dependencies
 add_subdirectory( vendor )

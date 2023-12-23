@@ -4,9 +4,7 @@
 #ifndef EGG_EVENTS_EVENT_H
 #define EGG_EVENTS_EVENT_H
 
-#include <functional>
-#include <string>
-
+#include "eggpch.h"
 #include "core/core.h"
 
 namespace egg {
@@ -43,11 +41,11 @@ enum class EventType {
 
 enum EventCategory {
   kNone = 0,
-  kEventCategoryApplication = BIT(0),
-  kEventCategoryInput = BIT(1),
-  kEventCategoryKeyboard = BIT(2),
-  kEventCategoryMouse = BIT(3),
-  kEventCategoryMouseButton = BIT(4)
+  kEventCategoryApplication = Bit(0),
+  kEventCategoryInput = Bit(1),
+  kEventCategoryKeyboard = Bit(2),
+  kEventCategoryMouse = Bit(3),
+  kEventCategoryMouseButton = Bit(4)
 };
 
 class Event {

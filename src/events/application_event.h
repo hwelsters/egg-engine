@@ -4,9 +4,7 @@
 #ifndef EGG_EVENTS_APPLICATION_EVENT_H
 #define EGG_EVENTS_APPLICATION_EVENT_H
 
-#include <sstream>
-#include <string>
-
+#include "eggpch.h"
 #include "events/event.h"
 
 namespace egg {

@@ -4,6 +4,6 @@
 #ifndef EGG_CORE_CORE_H
 #define EGG_CORE_CORE_H
 
-#define BIT(x) (1 << x)
+constexpr int Bit(int x) { return 1 << x; }
 
 #endif

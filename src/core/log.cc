@@ -1,5 +1,6 @@
 // Copyright 2023 hwelsters
 
+#include "eggpch.h"
 #include "core/log.h"
 
 namespace egg {
