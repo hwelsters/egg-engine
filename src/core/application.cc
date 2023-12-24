@@ -1,8 +1,8 @@
 // Copyright 2023 hwelsters
-
 #include "core/application.h"
 
 #include "core/log.h"
+#include "eggpch.h"
 #include "events/application_event.h"
 
 namespace egg {
@@ -20,7 +20,8 @@ void Application::Run() {
   }
   EGG_TRACE("Trace log! Application is running!");
   EGG_CORE_ERROR("Core error log! Application is RRADSAd!");
-  while (true) {}
+  while (true) {
+  }
 }
 
 }  // namespace egg

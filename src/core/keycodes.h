@@ -3,8 +3,8 @@
 #pragma once
 #ifndef EGG_CORE_KEYCODES_H
 #define EGG_CORE_KEYCODES_H
+#include "eggpch.h"
 
-#include <cinttypes>
 
 namespace egg {
 using KeyCode = uint16_t;
